@@ -1,4 +1,5 @@
-Deploying of a FullStack App on AWS services involves
+# Project Description
+Deployment of a FullStack App on AWS services involves
 integrating various components such as Amplify, Cognito, DynamoDB, S3,
 and CloudFront. Below is a flow and design that outlines the
 connections and interactions between these services.

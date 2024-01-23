@@ -9,7 +9,7 @@ connections and interactions between these services.
 4. [Security Considerations](#security-considerations)
 5. [Monitoring and Logging](#monitoring-and-logging)
 
-**Architecture Overview:**
+## Architecture Overview
 
 1.  **Frontend (React App):**
     -   The React App serves as the frontend, where users interact with
@@ -44,7 +44,7 @@ connections and interactions between these services.
     -   CloudFront can be connected to both S3 and the Amplify
         deployment.
 
-**Connections:**
+## Connections
 
 1.  **Amplify and Cognito:**
     -   Amplify is configured to use Cognito for user authentication and
@@ -65,7 +65,7 @@ connections and interactions between these services.
     -   CloudFront is configured to cache and serve static assets from
         both the Amplify deployment and S3.
 
-**Workflow:**
+## Workflow
 
 1.  **User Authentication:**
     -   Users interact with the React App and authenticate using
@@ -84,10 +84,12 @@ connections and interactions between these services.
         assets at edge locations.
     -   This reduces latency and ensures a faster user experience.
 
-**Security Considerations:** IAM (Identity and Access
+## Security Considerations
+IAM (Identity and Access
 Management) roles and policies are set up for secure interactions
 between services.
 
-**Monitoring and Logging:** CloudWatch for monitoring and
+## Monitoring and Logging
+CloudWatch for monitoring and
 logging across services. Amplify Console for tracking
 deployments and monitoring the React App.

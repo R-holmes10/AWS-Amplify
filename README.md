@@ -9,6 +9,7 @@ connections and interactions between these services.
 3. [Workflow](#workflow)
 4. [Security Considerations](#security-considerations)
 5. [Monitoring and Logging](#monitoring-and-logging)
+6. [Guide](#guide)
 
 ## Architecture Overview
 
@@ -94,3 +95,6 @@ between services.
 CloudWatch for monitoring and
 logging across services. Amplify Console for tracking
 deployments and monitoring the React App.
+
+## Guide
+Coming soon..

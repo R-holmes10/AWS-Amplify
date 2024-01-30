@@ -9,7 +9,7 @@ connections and interactions between these services.
 3. [Workflow](#workflow)
 4. [Security Considerations](#security-considerations)
 5. [Monitoring and Logging](#monitoring-and-logging)
-6. [Guide](#guide)
+6. [Guide to the App](#guide)
 
 ## Architecture Overview
 

@@ -19,8 +19,7 @@ connections and interactions between these services.
 2.  **AWS Amplify:**
     -   Simplifies the process of developing and deploying
         the React App.
-    -   Connect Amplify to the code repository (e.g., GitHub,
-        Bitbucket) for continuous deployment.
+    -   Connect Amplify to the code repository (E.g., GitHub) for continuous deployment.
 3.  **Amazon Cognito:**
     -   Set up Amazon Cognito for user authentication and authorization.
     -   Establish a connection between Amplify and Cognito to manage

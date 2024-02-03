@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import TodoApp from './TodoApp';
 
 function App() {
   return (
-    <div>
-        <p>
-          Deployment of Full stack app to AWS Cloud.
-        </p>
-       
+    <div className="App">
+      <TodoApp />
     </div>
   );
 }
